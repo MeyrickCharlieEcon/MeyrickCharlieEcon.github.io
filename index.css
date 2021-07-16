@@ -1,0 +1,38 @@
+/*this is my first proper CSS file */
+
+
+body{
+
+    background-color: coral;
+}
+
+h1{
+
+    color: #008000;
+    font-family: 'Poppins', sans-serif ;
+}
+
+h3{
+    color: yellow;
+    font-family: 'Poppins', sans-serif ;
+}
+
+p{font-family: 'Poppins', sans-serif}
+
+
+
+.chart{
+    width: 330px;
+    border-width: 10px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+
+
+}
+
+
+
+
+
