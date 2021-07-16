@@ -3,23 +3,25 @@
 
 body{
 
-    background-color: coral;
+    background-color: #122b39 ;
     max-width: 450px;
     margin: auto;
 }
 
 h1{
 
-    color: #008000;
+    color: rgb(219, 188, 188);
     font-family: 'Poppins', sans-serif ;
 }
 
 h3{
-    color: yellow;
+    color: #f4c245;
     font-family: 'Poppins', sans-serif ;
 }
 
-p{font-family: 'Poppins', sans-serif}
+p{font-family: 'Poppins', sans-serif;
+color: white;
+}
 
 
 
