@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CM DataVizDiary</title>
 
     <link rel="stylesheet" href= "index.css">
     <style>
@@ -34,7 +34,7 @@
 
         <p>Here is an example chart taken from Richard Davies' Rapid Charts page. This particular chart pulls data live from the GOV.UK website via API.</p>
         
-        <!--Example embed-->
+        
           <div class="chart">
             <div id="firstChart">
                 <script src="chartCovid1.js"></script>
@@ -62,17 +62,25 @@
             </div>
           </div>
 
+          <p>We have been experimenting with different embed methods. The chart below (on land use for palm oil in SE Asia) is embedded into the page as a .JSON file, rather than as a .JS file. Going forward, this is probably what I will use. I need to work out why it is off centre...</p>
 
-        
-        
+          <div class=chart id="fourthChart">
 
-    
+            <script>
+              var greenChart2 = "greenChart2.json";
+              vegaEmbed('#fourthChart', greenChart2);
+
+
+            </script>
+
+
+          </div>
+
 
     
     <h3>Data</h3>
     <p>This is where I will store my data sources.</p>
     
-
     
     <h3>Methodology</h3>
     <p>This is where I will publish my Methodology.</p>
