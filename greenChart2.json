@@ -37,7 +37,7 @@
     },
     "tooltip": [
       {"field": "Time", "type": "temporal", "timeUnit": "year", "title": "Year"},
-      {"field": "Value", "type": "quantitative", "title": "Land used (million tonnes)"},
+      {"field": "Value", "type": "quantitative", "title": "Land used (million hectares)"},
       {"field": "Region", "title": "Country"}
     ]
   }
