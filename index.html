@@ -28,41 +28,13 @@
     <p>The main purpose of this site is to document my Data Visualisation work – like a diary. This will be useful for me but may also help you – the user – learn how I work.</p>
 
 
-    <h3>Questions and charts</h3>
-
-    <body>
-
-        <p>Here is an example chart taken from Richard Davies' Rapid Charts page. This particular chart pulls data live from the GOV.UK website via API.</p>
-        
-        
-          <div class="chart">
-            <div id="firstChart">
-                <script src="chartCovid1.js"></script>
-              </script>
-            </div>
-          </div>
-        
-          <p>Here is another chart, this time using static data stored as a CSV on GitHub.</p>
-        
-          <div class="chart">
-            <div id="secondChart">
-                <script src="chartLine1.js"></script>
-              </script>
-            </div>
-          </div>
+  
         
           <h3>Some of my own work</h3>
 
           <p>Here is a chart I made for the new Rapid Charts Environment page.</p>
 
-          <div class="chart">
-            <div id="thirdChart">
-                <script src="greenChart1.js"></script>
-              </script>
-            </div>
-          </div>
-
-          <p>We have been experimenting with different embed methods. The chart below (on land use for palm oil in SE Asia) is embedded into the page as a .JSON file, rather than as a .JS file. Going forward, this is probably what I will use. I need to work out why it is off centre...</p>
+          <p>We have been experimenting with different embed methods. The chart below (on land use for palm oil in SE Asia) is embedded into the page as a .JSON file, rather than as a .JS file. Going forward, this is probably what I will use.</p>
 
           <div class=chart id="fourthChart">
 
@@ -133,6 +105,17 @@
             <script>
               var greenChart5 = "greenChart5.json";
               vegaEmbed('#ninthChart', greenChart5);
+
+            </script>
+
+          </div>
+
+          <p>This chart was build in collaboration with Juliette Brown and Richard Davies. I think the tooltip feature works well in this context.</p>
+
+          <div class=chart id="tenthChart">
+            <script>
+              var greenChart6 = "greenChart6.json";
+              vegaEmbed('#tenthChart', greenChart6);
 
             </script>
 
