@@ -33,7 +33,7 @@
   
       },
     "height": 300,
-    "width": 250,
+    "width": 235,
   
     "encoding": {
       "y": {"field": "Brand", "type": "ordinal", "sort":[], "title": null},
