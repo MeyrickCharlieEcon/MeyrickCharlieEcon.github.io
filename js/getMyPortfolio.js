@@ -30,7 +30,7 @@ async function getMyPortfolio() {
             // <div class="YMlKec fxKbKc">GBX&nbsp;44.91</div>
 
         var tickerName1 = $(html1).find(".zzDege").text();
-        var tickerPrice1 = $(html1).find(".YMlKec.fxKbKc").text();
+        var tickerPrice1 = $(html1).find(".YMlKec.p6k39c").text();
 
         console.log(tickerName1);
         // Apple Inc
