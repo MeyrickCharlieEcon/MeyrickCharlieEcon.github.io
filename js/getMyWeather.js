@@ -10,7 +10,7 @@ async function getMyWeather() {
     // Build the URL, by adding the CORE helper:
     var corsHelper = 'https://api.allorigins.win/raw?url=';
 
-    var url = 'https://www.bbc.co.uk/weather/2654675';
+    var url = 'https://www.bbc.co.uk/weather/2638778';
 
     var urlCORS = corsHelper + url;
 
@@ -77,7 +77,7 @@ async function getMyWeather() {
             "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
             "title": {
-                "text": "Bristol, peak temp next 10 days",
+                "text": "St Ives, peak temp next 10 days",
                 "fontWeight":200,
                 "fontSize":9,
                 "subtitle":["Source: BBC weather",""],
