@@ -11,7 +11,7 @@ async function getMyPortfolio() {
 
     var corsHelper = 'https://api.allorigins.win/raw?url=';
     var url1 = 'https://www.google.com/finance/quote/META:NASDAQ';
-    var url2 = 'https://www.google.com/finance/quote/BTC-USD';
+    var url2 = 'https://www.google.com/finance/quote/AAPL:NASDAQ';
 
     var urlCORS1 = corsHelper + url1;
     var urlCORS2 = corsHelper + url2;
@@ -64,7 +64,7 @@ async function getMyPortfolio() {
         // console.log(html);
 
         //Stuff we need to match:
-            // <div role="heading" aria-level="1" class="zzDege">Lloyds Banking Group PLC</div>
+            // <div role="heading" aria-level="1" class="zzDege">Apple Inc</div>
             // <div class="YMlKec fxKbKc">GBX&nbsp;44.91</div>
 
         var tickerName2 = $(html2).find(".zzDege").text();
@@ -74,7 +74,7 @@ async function getMyPortfolio() {
         // Bitcoin (BTC / USD)
         console.log(tickerPrice2);
 
-        tickerName2 = tickerName2.replace(" (BTC / USD)", "");
+        tickerName2 = tickerName2.replace("Apple Inc", "Apple");
 
         var tickerResult2 = tickerName2 + ": " + tickerPrice2
         console.log(tickerResult2)
