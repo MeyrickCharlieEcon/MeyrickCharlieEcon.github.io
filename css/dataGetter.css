@@ -1,5 +1,5 @@
 body {
-    background-color: #121212;
+    background-color: #122b39;
    }  
 
 .grid {
@@ -15,10 +15,10 @@ body {
   }
 
 .gridItem{
-    background-color: #282d32;
+    background-color:#122b39;
     border-radius: 2px;
     border-width: 1px;
-    border-color: #828282;
+    border-color: #f4c245;
     border-style: solid;
     }
 
@@ -54,7 +54,7 @@ p, .gridItem {
 }
 
 .fetchButton{
-    background-color:#E0E0E0;
+    background-color:#f4c245;
     color: #121212;
     font-size: 20px;
     font-variant: small-caps;
