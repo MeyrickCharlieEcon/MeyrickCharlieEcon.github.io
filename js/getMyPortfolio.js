@@ -10,8 +10,8 @@ async function getMyPortfolio() {
     // Build the URL, by adding the CORE helper:
 
     var corsHelper = 'https://api.allorigins.win/raw?url=';
-    var url1 = 'https://www.google.com/finance/quote/LLOY:LON';
-    var url2 = 'https://www.google.com/finance/quote/BTC-USD';
+    var url1 = 'https://www.google.com/finance/quote/NASDAQ:AAPL';
+    var url2 = 'https://www.google.com/finance/quote/META:NASDAQ';
 
     var urlCORS1 = corsHelper + url1;
     var urlCORS2 = corsHelper + url2;
@@ -26,22 +26,22 @@ async function getMyPortfolio() {
         // console.log(html);
 
         //Stuff we need to match:
-            // <div role="heading" aria-level="1" class="zzDege">Lloyds Banking Group PLC</div>
+            // <div role="heading" aria-level="1" class="zzDege">Apple Inc</div>
             // <div class="YMlKec fxKbKc">GBX&nbsp;44.91</div>
 
         var tickerName1 = $(html1).find(".zzDege").text();
         var tickerPrice1 = $(html1).find(".YMlKec.fxKbKc").text();
 
         console.log(tickerName1);
-        // Lloyds Banking Group PLC
+        // Apple Inc
         console.log(tickerPrice1);
         // GBX 45.44
 
-        tickerName1 = tickerName1.replace("Banking Group PLC", "Bank");
-        tickerPrice1 = tickerPrice1.replace("GBX ", "");
+        tickerName1 = tickerName1.replace("Inc", "");
+        tickerPrice1 = tickerPrice1.replace("", "");
 
         console.log(tickerName1);
-        // Lloyds Banking Group PLC
+        // Apple Inc
         console.log(tickerPrice1);
         // GBX 45.44
 
@@ -64,7 +64,7 @@ async function getMyPortfolio() {
         // console.log(html);
 
         //Stuff we need to match:
-            // <div role="heading" aria-level="1" class="zzDege">Lloyds Banking Group PLC</div>
+            // <div role="heading" aria-level="1" class="zzDege">Meta Platforms Inc</div>
             // <div class="YMlKec fxKbKc">GBX&nbsp;44.91</div>
 
         var tickerName2 = $(html2).find(".zzDege").text();
@@ -74,7 +74,7 @@ async function getMyPortfolio() {
         // Bitcoin (BTC / USD)
         console.log(tickerPrice2);
 
-        tickerName2 = tickerName2.replace(" (BTC / USD)", "");
+        tickerName2 = tickerName2.replace("", "");
 
         var tickerResult2 = tickerName2 + ": " + tickerPrice2
         console.log(tickerResult2)
