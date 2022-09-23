@@ -10,7 +10,7 @@ async function getMyWaves() {
     // Build the URL, by adding the CORE helper:
 
     var corsHelper = 'https://api.allorigins.win/raw?url=';
-    var url = 'https://magicseaweed.com/Porthcawl-Rest-Bay-Surf-Report/1449/';
+    var url = 'https://magicseaweed.com/Porthcawl-Rest-Bay-Surf-Report/1394/';
     var urlCORS = corsHelper + url;
 
     // See what we have:
@@ -50,7 +50,7 @@ async function getMyWaves() {
         var x2 = document.getElementById("waveHeight");
         var x3 = document.getElementById("swellDetails");
         
-        x1.innerText = "Rest Bay: " + waves;
+        x1.innerText = "Porthmoer: " + waves;
         // x2.innerText = waves;
         x3.innerText = swellDetails
        
