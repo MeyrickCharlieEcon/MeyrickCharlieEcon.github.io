@@ -91,14 +91,14 @@ async function getMyWeather() {
             "width": 120, "height": 60,
 
             "config": {
-                "background":"#282d32",
+                "background":"#122b39",
                 "view": {
                   "stroke": "transparent"}},
 
             "data": {
                 "name": "myData"
             },
-            "mark": {"type":"circle", "color":"#E0E0E0"},
+            "mark": {"type":"circle", "color":"#f4c245"},
             "encoding": {
                 "x": {
                     "field": "day", 
