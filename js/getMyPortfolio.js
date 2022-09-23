@@ -74,7 +74,7 @@ async function getMyPortfolio() {
         // Bitcoin (BTC / USD)
         console.log(tickerPrice2);
 
-        tickerName2 = tickerName2.replace("", "");
+        tickerName2 = tickerName2.replace("Meta Platforms Inc", "Facebook (Meta)");
 
         var tickerResult2 = tickerName2 + ": " + tickerPrice2
         console.log(tickerResult2)
