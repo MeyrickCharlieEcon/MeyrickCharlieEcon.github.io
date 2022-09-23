@@ -10,7 +10,7 @@ async function getMyPortfolio() {
     // Build the URL, by adding the CORE helper:
 
     var corsHelper = 'https://api.allorigins.win/raw?url=';
-    var url1 = 'https://www.google.com/finance/quote/NASDAQ:AAPL';
+    var url1 = 'https://www.google.com/finance/quote/APPL:NASDAQ';
     var url2 = 'https://www.google.com/finance/quote/META:NASDAQ';
 
     var urlCORS1 = corsHelper + url1;
