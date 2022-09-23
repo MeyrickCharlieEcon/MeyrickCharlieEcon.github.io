@@ -10,7 +10,7 @@ async function getMyPortfolio() {
     // Build the URL, by adding the CORE helper:
 
     var corsHelper = 'https://api.allorigins.win/raw?url=';
-    var url1 = 'https://www.google.com/finance/quote/APPL:NASDAQ';
+    var url1 = 'https://www.google.com/finance/quote/AAPL:NASDAQ';
     var url2 = 'https://www.google.com/finance/quote/META:NASDAQ';
 
     var urlCORS1 = corsHelper + url1;
@@ -30,7 +30,7 @@ async function getMyPortfolio() {
             // <div class="YMlKec fxKbKc">GBX&nbsp;44.91</div>
 
         var tickerName1 = $(html1).find(".zzDege").text();
-        var tickerPrice1 = $(html1).find(".YMlKec.P6K39c").text();
+        var tickerPrice1 = $(html1).find(".YMlKec.fxKbKc").text();
 
         console.log(tickerName1);
         // Apple Inc
@@ -68,7 +68,7 @@ async function getMyPortfolio() {
             // <div class="YMlKec fxKbKc">GBX&nbsp;44.91</div>
 
         var tickerName2 = $(html2).find(".zzDege").text();
-        var tickerPrice2 = $(html2).find(".YMlKec.P6K39c").text();
+        var tickerPrice2 = $(html2).find(".YMlKec.fxKbKc").text();
 
         console.log(tickerName2);
         // Meta Platforms Inc
