@@ -43,7 +43,7 @@ async function getMyPortfolio() {
         console.log(tickerName1);
         // Apple Inc
         console.log(tickerPrice1);
-        // GBX 45.44
+        // VALUE
 
         var tickerResult1 = tickerName1 + ": " + tickerPrice1
         console.log(tickerResult1)
@@ -68,10 +68,10 @@ async function getMyPortfolio() {
             // <div class="YMlKec fxKbKc">GBX&nbsp;44.91</div>
 
         var tickerName2 = $(html2).find(".zzDege").text();
-        var tickerPrice2 = $(html2).find(".YMlKec.fxKbKc").text();
+        var tickerPrice2 = $(html2).find(".YMlKec.P6K39c").text();
 
         console.log(tickerName2);
-        // Bitcoin (BTC / USD)
+        // Meta Platforms Inc
         console.log(tickerPrice2);
 
         tickerName2 = tickerName2.replace("Meta Platforms Inc", "Facebook (Meta)");
