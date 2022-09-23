@@ -38,7 +38,7 @@ async function getMyPortfolio() {
         // GBX 45.44
 
         tickerName1 = tickerName1.replace("Inc", "");
-        tickerPrice1 = tickerPrice1.replace("", "");
+        
 
         console.log(tickerName1);
         // Apple Inc
