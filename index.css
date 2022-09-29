@@ -23,11 +23,12 @@ p{font-family: 'Poppins', sans-serif;
 color: white;
 }
 
-
+.link { color: #f4c245; } /* CSS link color (yellow) */
+.link:hover { color: #f6d173; } /* CSS link hover (pale yellow) */
 
 .chart{
     width: 330px;
-    border-width: 5px;
+    border-width: 3px;
     background-color: white;
     border-style: solid;
     border-radius: 10px;
