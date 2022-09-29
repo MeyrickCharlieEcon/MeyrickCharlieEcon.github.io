@@ -27,11 +27,11 @@ color: white;
 
 .chart{
     width: 330px;
-    border-width: 10px;
+    border-width: 5px;
     background-color: white;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(219, 188, 188);
+    border-color: #f4c245;
     margin: auto;
 
 
