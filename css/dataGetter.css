@@ -7,7 +7,7 @@ body {
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
     grid-template-areas: 
-      "portfolio surf"
+      "tech surf"
       "news news";
     max-width: 500px;
     margin: auto
