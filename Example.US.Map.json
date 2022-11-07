@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 500,
+
+  "background": "darkslategrey",
+  
+"data": {
+  "url": "https://raw.githubusercontent.com/MeyrickCharlieEcon/MeyrickCharlieEcon.github.io/main/GeoUSStates.json",
+  "format": {
+ 
+    "property": "features"
+    
+    }
+},
+
+"projection": {"type": "albersUsa"},
+
+"mark": {
+  "type": "geoshape", 
+  "fill": "mediumaquamarine",
+  "stroke": "lightgoldenrodyellow",
+  "strokeWidth": 1.2
+  
+  },
+
+  "encoding":
+  
+  {"tooltip": [
+    {"field": "properties.NAME", "type": "nominal", "title": "State"}
+
+  ]
+
+  }
+
+}
