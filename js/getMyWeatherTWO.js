@@ -5,7 +5,7 @@
 /// IN-BROWSER SCRAPING
 ////////////////////////////////////
 
-async function getMyWeather() {
+async function getMyWeatherTWO() {
   
     // Build the URL, by adding the CORE helper:
     var corsHelper = 'https://api.allorigins.win/raw?url=';
