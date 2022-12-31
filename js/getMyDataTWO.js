@@ -11,9 +11,16 @@ async function getMyDataTWO() {
 
 
     getMyWavesTWO();
-
     getMyWeatherTWO();
  
+    getMyWavesTHREE();
+    getMyWeatherTHREE();
+  
+    getMyWavesFOUR();
+    getMyWeatherFOUR();
+  
+    getMyWavesFIVE();
+    getMyWeatherFIVE();
 
 }
 
