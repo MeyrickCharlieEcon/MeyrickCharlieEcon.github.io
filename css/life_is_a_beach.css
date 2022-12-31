@@ -43,7 +43,7 @@ p, .gridItem {
     font-size: 14px;
     display: flex;
     justify-content: center;
-    color: rgb(240, 255, 150);
+    color: #C2B280;
 }
 
 .getter{
