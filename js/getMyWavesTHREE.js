@@ -29,10 +29,10 @@ async function getMyWavesTHREE() {
 
         // Target element 3:
                   
-        const waves2 = $(html).find(".rating-text.text-dark").text();
-        const swellDetails2 = $(html).find(".list-group-item.list-group-item-block").text();
+        const waves = $(html).find(".rating-text.text-dark").text();
+        const swellDetails = $(html).find(".list-group-item.list-group-item-block").text();
 
-        const forecast2 = $(html).find(".h3.font-sans-serif.heavy.nomargin.text-white").text();
+        const forecast = $(html).find(".h3.font-sans-serif.heavy.nomargin.text-white").text();
                 
         console.log(waves);
         console.log(forecast);
