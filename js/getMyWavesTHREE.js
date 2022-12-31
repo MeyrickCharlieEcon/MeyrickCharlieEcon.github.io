@@ -27,12 +27,12 @@ async function getMyWavesTHREE() {
 
         // Target element:  <li class="rating-text text-dark">    2-3<small>ft</small>   </li>
 
-        // Target element 2:
+        // Target element 3:
                   
-        const waves = $(html).find(".rating-text.text-dark").text();
-        const swellDetails = $(html).find(".list-group-item.list-group-item-block").text();
+        const waves2 = $(html).find(".rating-text.text-dark").text();
+        const swellDetails2 = $(html).find(".list-group-item.list-group-item-block").text();
 
-        const forecast = $(html).find(".h3.font-sans-serif.heavy.nomargin.text-white").text();
+        const forecast2 = $(html).find(".h3.font-sans-serif.heavy.nomargin.text-white").text();
                 
         console.log(waves);
         console.log(forecast);
@@ -45,9 +45,9 @@ async function getMyWavesTHREE() {
         //Now display the JSON on the page:
         // document.body.innerHTML = dataJSON;
 
-        var x1 = document.getElementById("waveLocation");
-        var x2 = document.getElementById("waveHeight");
-        var x3 = document.getElementById("swellDetails");
+        var x1 = document.getElementById("waveLocation2");
+        var x2 = document.getElementById("waveHeight2");
+        var x3 = document.getElementById("swellDetails2");
         
         x1.innerText = "Gwithian: " + waves;
         // x2.innerText = waves;
