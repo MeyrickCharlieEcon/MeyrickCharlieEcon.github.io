@@ -49,7 +49,7 @@ async function getMyWavesTHREE() {
         var x2 = document.getElementById("waveHeight");
         var x3 = document.getElementById("swellDetails");
         
-        x1.innerText = "Porthmoer: " + waves;
+        x1.innerText = "Gwithian: " + waves;
         // x2.innerText = waves;
         x3.innerText = swellDetails
        
